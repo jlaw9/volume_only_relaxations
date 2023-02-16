@@ -1,0 +1,55 @@
+addgrid: true
+algo: Normal
+ediff: 1.0e-06
+ediffg: 1.0e-05
+encut: 340.0
+ibrion: -1
+icharg: 2
+ismear: 0
+istart: 0
+isym: 0
+kpts: 20
+lcharg: true
+lmaxmix: 4
+lorbit: 10
+lpead: false
+lplane: true
+lvhar: false
+lvtot: false
+lwave: true
+npar: 9
+nsw: 0
+prec: Accurate
+sigma: 0.01
+system: K12 N4
+setups: {}
+ldau: true
+ldautype: 2
+ldau_luj:
+  Ag: {"L": 2, "U": 5, "J": 0}
+  Ag: {"L": 2, "U": 5, "J": 0}
+  Ag: {"L": 2, "U": 5, "J": 0}
+  Ag: {"L": 2, "U": 5, "J": 0}
+  Au: {"L": 2, "U": 3, "J": 0}
+  Co: {"L": 2, "U": 3, "J": 0}
+  Cr: {"L": 2, "U": 3, "J": 0}
+  Cu: {"L": 2, "U": 5, "J": 0}
+  Fe: {"L": 2, "U": 3, "J": 0}
+  Hf: {"L": 2, "U": 3, "J": 0}
+  Ir: {"L": 2, "U": 3, "J": 0}
+  La: {"L": 2, "U": 3, "J": 0}
+  Mn: {"L": 2, "U": 3, "J": 0}
+  Mo: {"L": 2, "U": 3, "J": 0}
+  Nb: {"L": 2, "U": 3, "J": 0}
+  Ni: {"L": 2, "U": 3, "J": 0}
+  Pd: {"L": 2, "U": 3, "J": 0}
+  Pt: {"L": 2, "U": 3, "J": 0}
+  Rh: {"L": 2, "U": 3, "J": 0}
+  Ru: {"L": 2, "U": 3, "J": 0}
+  Sc: {"L": 2, "U": 3, "J": 0}
+  Ta: {"L": 2, "U": 3, "J": 0}
+  Ti: {"L": 2, "U": 3, "J": 0}
+  V:  {"L": 2, "U": 3, "J": 0}
+  W:  {"L": 2, "U": 3, "J": 0}
+  Y:  {"L": 2, "U": 3, "J": 0}
+  Zr: {"L": 2, "U": 3, "J": 0}
