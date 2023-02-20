@@ -28,7 +28,7 @@ parser = argparse.ArgumentParser(
 parser.add_argument("-i", "--input-structures", type=str, required=True)
 #parser.add_argument("-v", "--volume-predictions", type=str, required=True,
 #        help="CSV of volume predictions to apply to input structures before running the volume optimization")
-parser.add_argument('--vol-pred-site-bias', type=Path,
+parser.add_argument('--vol-pred-site-bias', type=Path, default="inputs/site_volumes_from_icsd.csv",
                     help='Apply a volume prediction to the structures '
                     'before performing the volume optimization. '
                     'Give the path to a file with the average volume per element')
